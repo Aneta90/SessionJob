@@ -1,20 +1,18 @@
 package com.kantar.sessionsjob.analyzerPackage;
 
-import com.kantar.sessionsjob.inputOutputPackage.Record;
+import com.kantar.sessionsjob.converter.Converter;
+import com.kantar.sessionsjob.recordModel.Record;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.List;
-import java.util.regex.Pattern;
 
 public class DurationAnalyzer {
 
-    public Record analyze(Record currentRecord) {
-            LocalDateTime startDateTime = currentRecord.getStartTime();
-            LocalDateTime endDateTime = currentRecord.getEndTime();
-            currentRecord.setDuration(calculateDuration(startDateTime, endDateTime));
-            return currentRecord;
+    public Record calculateDurationPerOneRecord(Record currentRecord) {
+        LocalDateTime startDateTime = Converter.convertStringToLocalDateTime(currentRecord.getStartTime());
+        LocalDateTime endDateTime = Converter.convertStringToLocalDateTime(currentRecord.getEndTime());
+        currentRecord.setDuration(calculateDuration(startDateTime, endDateTime));
+        return currentRecord;
     }
 
     /**

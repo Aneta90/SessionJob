@@ -6,9 +6,9 @@ public class Record {
 
     private Long homeNo;
     private String channel;
-    private LocalDateTime startTime; //LocalDateTime do zastanowienia
+    private String startTime; //LocalDateTime do zastanowienia
     private String activity;
-    private LocalDateTime endTime;
+    private String endTime;
     private Long duration;
 
     public Long getHomeNo() {
@@ -27,12 +27,20 @@ public class Record {
         return channel;
     }
 
-    public LocalDateTime getStartTime() {
+    public String getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(LocalDateTime startTime) {
+    public void setStartTime(String startTime) {
         this.startTime = startTime;
+    }
+
+    public String getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(String endTime) {
+        this.endTime = endTime;
     }
 
     public String getActivity() {
@@ -41,14 +49,6 @@ public class Record {
 
     public void setActivity(String activity) {
         this.activity = activity;
-    }
-
-    public LocalDateTime getEndTime() {
-        return endTime;
-    }
-
-    public void setEndTime(LocalDateTime endTime) {
-        this.endTime = endTime;
     }
 
     public Long getDuration() {
@@ -61,6 +61,6 @@ public class Record {
 
     @Override
     public String toString() {
-        return homeNo + "|" + channel + "|" + startTime + '|' + activity;
+        return homeNo + "|" + channel + "|" + startTime + '|' + activity + '|' + endTime + '|' + duration;
     }
 }
