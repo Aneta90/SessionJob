@@ -5,15 +5,16 @@ import com.kantar.sessionsjob.recordModel.Record;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.Objects;
 
 class EndTimeAnalyzer {
 
-    Record calculateEndTimePerOneRecord(Record currentRecord, Record nextRecord) {
+    Record calculateEndTimePerOneRecord(final Record currentRecord, final Record nextRecord) {
         if (nextRecord == null) {
             currentRecord.setEndTime(setEndOfDayByDefault(currentRecord));
             return currentRecord;
         }
-        if (currentRecord.getHomeNo().equals(nextRecord.getHomeNo())) {
+        if (Objects.equals(currentRecord.getHomeNo(),nextRecord.getHomeNo())) {
             currentRecord.setEndTime(setEndOfDayIfMoreThanOneRecordPerHomeNo(nextRecord));
             return currentRecord;
         }
@@ -21,12 +22,12 @@ class EndTimeAnalyzer {
         return currentRecord;
     }
 
-    private String setEndOfDayByDefault(Record record){
+    private String setEndOfDayByDefault(final Record record){
         LocalDateTime localDateTime = Converter.convertStringToLocalDateTime(record.getStartTime());
         return Converter.convertLocalDateTimeToString(localDateTime.toLocalDate().atTime(LocalTime.MIDNIGHT.minusSeconds(1)));
     }
 
-    private String setEndOfDayIfMoreThanOneRecordPerHomeNo(Record record){
+    private String setEndOfDayIfMoreThanOneRecordPerHomeNo(final Record record){
         LocalDateTime localDateTime = Converter.convertStringToLocalDateTime(record.getStartTime());
         return Converter.convertLocalDateTimeToString(localDateTime.minusSeconds(1));
     }

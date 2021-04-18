@@ -15,13 +15,6 @@ class DurationAnalyzer {
         return currentRecord;
     }
 
-    /**
-     * calculating time between startTime and endTime
-     *
-     * @param startTime time when user starts watching
-     * @param endTime time when user stops watching
-     * @return number of seconds
-     */
     private Long calculateDuration(LocalDateTime startTime, LocalDateTime endTime) {
         return ChronoUnit.SECONDS.between(startTime, endTime) + 1L;
     }

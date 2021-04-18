@@ -5,13 +5,18 @@ import java.time.format.DateTimeFormatter;
 
 public class Converter {
 
-    public static LocalDateTime convertStringToLocalDateTime(String string){
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+    private Converter() {
+    }
+
+    private static final String FORMATTER = "yyyyMMddHHmmss";
+
+    public static LocalDateTime convertStringToLocalDateTime(final String string) {
+        final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(FORMATTER);
         return LocalDateTime.parse(string, formatter);
     }
 
-    public static String convertLocalDateTimeToString(LocalDateTime localDateTime){
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+    public static String convertLocalDateTimeToString(final LocalDateTime localDateTime) {
+        final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(FORMATTER);
         return localDateTime.format(formatter);
     }
 }

@@ -1,32 +1,32 @@
 package com.kantar.sessionsjob.inputOutputPackage;
 
 import com.kantar.sessionsjob.recordModel.Record;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 class WriteFile {
 
-    void writeDataToFile(List<Record> listOfData, String outputFileName) throws IOException {
-        String headers = addHeaders();
-        List<String> listWithHeaders = new ArrayList<>();
-        listWithHeaders.add(headers);
-        listWithHeaders.addAll(convertListTOSrings(listOfData));
-        Files.write(Paths.get(outputFileName), listWithHeaders);
-    }
+    private static final Logger LOGGER = Logger.getLogger(WriteFile.class.getName());
+    private static final String HEADERS = "HomeNo|Channel|StartTime|Activity|EndTime|Duration";
 
-    private List<String> convertListTOSrings(List<Record> records){
-        List<String> stringList = new ArrayList<>();
-        for (Record record : records) {
-            stringList.add(record.toString());
+    void writeDataToFile(List<Record> listOfData, String outputFileName) {
+        final List<String> listWithHeaders = new ArrayList<>();
+        listWithHeaders.add(HEADERS);
+        listWithHeaders.addAll(convertListToStrings(listOfData));
+        try {
+            Files.write(Paths.get(outputFileName), listWithHeaders);   
+        } catch (IOException e){
+            LOGGER.error("Problem with outputFile",e.getCause());
         }
-        return stringList;
     }
 
-    private String addHeaders() {
-        return "HomeNo|Channel|StartTime|Activity|EndTime|Duration";
+    private List<String> convertListToStrings(List<Record> records) {
+        return records.stream().map(Object::toString).collect(Collectors.toList());
     }
 }

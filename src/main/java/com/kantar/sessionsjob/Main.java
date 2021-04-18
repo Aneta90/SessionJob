@@ -1,7 +1,6 @@
 package com.kantar.sessionsjob;
 
 import com.kantar.sessionsjob.inputOutputPackage.OperationService;
-
 import java.io.IOException;
 
 public class Main {
@@ -14,10 +13,5 @@ public class Main {
 
         OperationService operationService = new OperationService();
         operationService.operationOnFile(args[0], args[1]);
-
-        /**
-         * src\\test\\resources\\input-statements.psv
-         * src\\test\\resources\\expected-sessions.psv
-         * **/
     }
 }
