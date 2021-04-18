@@ -1,4 +1,4 @@
-package com.kantar.sessionsjob.inputOutputPackage;
+package com.kantar.sessionsjob.recordService;
 
 import com.kantar.sessionsjob.recordModel.Record;
 

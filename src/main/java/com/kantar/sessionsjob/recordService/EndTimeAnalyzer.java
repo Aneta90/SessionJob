@@ -1,4 +1,4 @@
-package com.kantar.sessionsjob.analyzerPackage;
+package com.kantar.sessionsjob.recordService;
 
 import com.kantar.sessionsjob.converter.Converter;
 import com.kantar.sessionsjob.recordModel.Record;
@@ -6,9 +6,9 @@ import com.kantar.sessionsjob.recordModel.Record;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-public class EndTimeAnalyzer {
+class EndTimeAnalyzer {
 
-    public Record calculateEndTimePerOneRecord(Record currentRecord, Record nextRecord) {
+    Record calculateEndTimePerOneRecord(Record currentRecord, Record nextRecord) {
         if (nextRecord == null) {
             currentRecord.setEndTime(setEndOfDayByDefault(currentRecord));
             return currentRecord;
