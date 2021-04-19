@@ -9,6 +9,6 @@ Example usage using the provided test files:
 OR
 
   java -jar target/SessionsJob-1.0.jar src/test/resources/input-statements.psv target/actual-sessions.psv
-  WITHOUT special character '/''
+  WITHOUT special character (')
   
   You can also run this App from IntelliJ adding arguments to Edit Configuration -> Program arguments -> src/test/resources/input-statements.psv target/actual-sessions.psv
