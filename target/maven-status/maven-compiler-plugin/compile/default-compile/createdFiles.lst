@@ -1,10 +1,11 @@
-com\kantar\sessionsjob\inputOutputPackage\Record.class
-com\kantar\sessionsjob\inputOutputPackage\ModifyRecord.class
-com\kantar\sessionsjob\analyzerPackage\DurationAnalyzer.class
-com\kantar\sessionsjob\analyzerPackage\Analyzer.class
+com\kantar\sessionsjob\recordService\EndTimeAnalyzer.class
+com\kantar\sessionsjob\recordService\DurationAnalyzer.class
+com\kantar\sessionsjob\converter\Converter.class
 com\kantar\sessionsjob\inputOutputPackage\OperationService.class
 com\kantar\sessionsjob\inputOutputPackage\WriteFile.class
 com\kantar\sessionsjob\Main.class
+com\kantar\sessionsjob\recordModel\Record.class
+com\kantar\sessionsjob\recordModel\Record$RecordBuilder.class
+com\kantar\sessionsjob\recordService\ModifyRecord.class
 com\kantar\sessionsjob\inputOutputPackage\ReadFile.class
-com\kantar\sessionsjob\analyzerPackage\EndTimeAnalyzer.class
-com\kantar\sessionsjob\inputOutputPackage\SortRecord.class
+com\kantar\sessionsjob\recordService\SortRecord.class

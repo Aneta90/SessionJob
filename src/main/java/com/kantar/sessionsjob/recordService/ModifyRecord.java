@@ -10,7 +10,7 @@ public class ModifyRecord {
     private DurationAnalyzer durationAnalyzer = new DurationAnalyzer();
     private EndTimeAnalyzer endTimeAnalyzer = new EndTimeAnalyzer();
 
-    public List<Record> addEndTimeAndDuration(List<Record> inputDataList) {
+    public List<Record> addEndTimeAndDuration(final List<Record> inputDataList) {
         List<Record> updatedList = new ArrayList<>();
         for (int i = 0; i < inputDataList.size(); i++) {
             Record record = inputDataList.get(i);

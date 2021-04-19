@@ -1,7 +1,8 @@
 package com.kantar.sessionsjob.inputOutputPackage;
 
 import com.kantar.sessionsjob.recordModel.Record;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,10 +13,10 @@ import java.util.stream.Collectors;
 
 class WriteFile {
 
-    private static final Logger LOGGER = Logger.getLogger(WriteFile.class.getName());
+    private static final Logger LOGGER = LogManager.getLogger(WriteFile.class);
     private static final String HEADERS = "HomeNo|Channel|StartTime|Activity|EndTime|Duration";
 
-    void writeDataToFile(List<Record> listOfData, String outputFileName) {
+    void writeDataToFile(final List<Record> listOfData, final String outputFileName) {
         final List<String> listWithHeaders = new ArrayList<>();
         listWithHeaders.add(HEADERS);
         listWithHeaders.addAll(convertListToStrings(listOfData));
@@ -26,7 +27,7 @@ class WriteFile {
         }
     }
 
-    private List<String> convertListToStrings(List<Record> records) {
+    private List<String> convertListToStrings(final List<Record> records) {
         return records.stream().map(Object::toString).collect(Collectors.toList());
     }
 }

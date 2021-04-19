@@ -2,22 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb9f8e91-ca18-4bdb-a04b-199c37479e71" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/converter/Converter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/OperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/OperationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/ReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/WriteFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/DurationAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/DurationAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/ModifyRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/ModifyRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/SortRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/SortRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/expected-sessions.psv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/expected-sessions.psv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SessionsJob-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SessionsJob-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/actual-sessions.psv" beforeDir="false" afterPath="$PROJECT_DIR$/target/actual-sessions.psv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/converter/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/converter/Converter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/inputOutputPackage/OperationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/inputOutputPackage/OperationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/inputOutputPackage/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/inputOutputPackage/ReadFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/inputOutputPackage/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/inputOutputPackage/WriteFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/recordService/DurationAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/recordService/DurationAnalyzer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-SessionsJob-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-SessionsJob-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/expected-sessions.psv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/expected-sessions.psv" afterDir="false" />
     </list>
@@ -31,16 +39,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="expected-sessions.psv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expected-sessions.psv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/expected-sessions.psv">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DurationAnalyzerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/DurationAnalyzerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndTimeAnalyzerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actual-sessions.psv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/actual-sessions.psv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="54" selection-end-line="10" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModifyRecordTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/ModifyRecordTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="6" column="109" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="OperationService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/OperationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="13" column="34" selection-start-line="13" selection-end-line="14" />
+            <state relative-caret-position="-130">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/ReadFile.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,83 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actual-sessions.psv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/actual-sessions.psv">
+      <file leaf-file-name="input-statements.psv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/input-statements.psv">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="10" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DurationAnalyzer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/DurationAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/converter/Converter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EndTimeAnalyzer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/WriteFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModifyRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/ModifyRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordModel/Record.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -166,22 +169,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/Record.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/analyzerPackage/DurationAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/analyzerPackage/EndTimeAnalyzer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/ModifyRecord.java" />
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordModel/Record.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/input-statements.psv" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/converter/Converter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/DurationAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/DurationAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/ModifyRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/SortRecord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/DurationAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/input-statements.psv" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/OperationService.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/expected-sessions.psv" />
-        <option value="$PROJECT_DIR$/target/actual-sessions.psv" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/WriteFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/expected-sessions.psv" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/ModifyRecordTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/target/actual-sessions.psv" />
       </list>
     </option>
   </component>
@@ -263,25 +271,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sessionsjob" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SessionsJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kantar_audience_exercise_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sessionsjob" type="462c0819:PsiDirectoryNode" />
               <item name="inputOutputPackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SessionsJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kantar_audience_exercise_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sessionsjob" type="462c0819:PsiDirectoryNode" />
-              <item name="recordModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SessionsJob" type="b2602c69:ProjectViewProjectNode" />
@@ -310,6 +300,21 @@
               <item name="kantar_audience_exercise_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SessionsJob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kantar_audience_exercise_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recordService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SessionsJob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kantar_audience_exercise_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,6 +333,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.8263566" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -363,17 +369,39 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kantar.sessionsjob.Main" />
       <module name="SessionsJob" />
-      <option name="PROGRAM_PARAMETERS" value="src\\test\\resources\\input-statements.psv src\\test\\resources\\expected-sessions.psv" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kantar.sessionsjob.recordService.*" />
+          <option name="PATTERN" value="com.kantar.sessionsjob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DurationAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SessionsJob" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kantar.sessionsjob.recordService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kantar.sessionsjob.recordService" />
+      <option name="MAIN_CLASS_NAME" value="com.kantar.sessionsjob.recordService.DurationAnalyzerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="EndTimeAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SessionsJob" />
@@ -398,7 +426,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EndTimeAnalyzerTest.calculateBasicEndTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModifyRecordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SessionsJob" />
       <extension name="coverage">
         <pattern>
@@ -409,9 +437,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kantar.sessionsjob.recordService" />
-      <option name="MAIN_CLASS_NAME" value="com.kantar.sessionsjob.recordService.EndTimeAnalyzerTest" />
-      <option name="METHOD_NAME" value="calculateBasicEndTime" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.kantar.sessionsjob.recordService.ModifyRecordTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -421,7 +449,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EndTimeAnalyzerTest.calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModifyRecordTest.modifyRecordsForSampleListOfRecords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SessionsJob" />
       <extension name="coverage">
         <pattern>
@@ -432,31 +460,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kantar.sessionsjob.recordService" />
-      <option name="MAIN_CLASS_NAME" value="com.kantar.sessionsjob.recordService.EndTimeAnalyzerTest" />
-      <option name="METHOD_NAME" value="calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="EndTimeAnalyzerTest.calculateEndTimeWhenNextHomeNoIsDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SessionsJob" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kantar.sessionsjob.recordService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kantar.sessionsjob.recordService" />
-      <option name="MAIN_CLASS_NAME" value="com.kantar.sessionsjob.recordService.EndTimeAnalyzerTest" />
-      <option name="METHOD_NAME" value="calculateEndTimeWhenNextHomeNoIsDifferent" />
+      <option name="MAIN_CLASS_NAME" value="com.kantar.sessionsjob.recordService.ModifyRecordTest" />
+      <option name="METHOD_NAME" value="modifyRecordsForSampleListOfRecords" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -531,18 +536,18 @@
     <list>
       <item itemvalue="JUnit.com.kantar.sessionsjob.recordService in SessionsJob" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.EndTimeAnalyzerTest.calculateBasicEndTime" />
-      <item itemvalue="JUnit.EndTimeAnalyzerTest.calculateEndTimeWhenNextHomeNoIsDifferent" />
-      <item itemvalue="JUnit.EndTimeAnalyzerTest.calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent" />
+      <item itemvalue="JUnit.DurationAnalyzerTest" />
+      <item itemvalue="JUnit.ModifyRecordTest.modifyRecordsForSampleListOfRecords" />
+      <item itemvalue="JUnit.ModifyRecordTest" />
       <item itemvalue="JUnit.EndTimeAnalyzerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ModifyRecordTest" />
         <item itemvalue="JUnit.EndTimeAnalyzerTest" />
-        <item itemvalue="JUnit.EndTimeAnalyzerTest.calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent" />
-        <item itemvalue="JUnit.EndTimeAnalyzerTest.calculateEndTimeWhenNextHomeNoIsDifferent" />
-        <item itemvalue="JUnit.EndTimeAnalyzerTest.calculateBasicEndTime" />
+        <item itemvalue="JUnit.DurationAnalyzerTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ModifyRecordTest.modifyRecordsForSampleListOfRecords" />
       </list>
     </recent_temporary>
   </component>
@@ -568,26 +573,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EndTimeAnalyzerTest_calculateBasicEndTime - 2021.04.18 at 20h 44m 02s.xml">
-      <configuration name="EndTimeAnalyzerTest.calculateBasicEndTime" configurationId="JUnit" />
+    <history-entry file="DurationAnalyzerTest - 2021.04.19 at 12h 03m 54s.xml">
+      <configuration name="DurationAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndTimeAnalyzerTest_calculateBasicEndTime - 2021.04.18 at 20h 50m 30s.xml">
-      <configuration name="EndTimeAnalyzerTest.calculateBasicEndTime" configurationId="JUnit" />
+    <history-entry file="ModifyRecordTest_modifyRecordsForSampleListOfRecords - 2021.04.19 at 13h 31m 18s.xml">
+      <configuration name="ModifyRecordTest.modifyRecordsForSampleListOfRecords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndTimeAnalyzerTest_calculateEndTimeWhenNextHomeNoIsDifferent - 2021.04.18 at 21h 04m 01s.xml">
-      <configuration name="EndTimeAnalyzerTest.calculateEndTimeWhenNextHomeNoIsDifferent" configurationId="JUnit" />
+    <history-entry file="ModifyRecordTest_modifyRecordsForSampleListOfRecords - 2021.04.19 at 13h 34m 17s.xml">
+      <configuration name="ModifyRecordTest.modifyRecordsForSampleListOfRecords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndTimeAnalyzerTest_calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent - 2021.04.18 at 21h 08m 02s.xml">
-      <configuration name="EndTimeAnalyzerTest.calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent" configurationId="JUnit" />
+    <history-entry file="ModifyRecordTest_modifyRecordsForSampleListOfRecords - 2021.04.19 at 13h 35m 49s.xml">
+      <configuration name="ModifyRecordTest.modifyRecordsForSampleListOfRecords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndTimeAnalyzerTest_calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent - 2021.04.18 at 21h 09m 01s.xml">
-      <configuration name="EndTimeAnalyzerTest.calculateEndTimeForCurrentRecordWhenNextHomeNoIsDifferent" configurationId="JUnit" />
+    <history-entry file="ModifyRecordTest_modifyRecordsForSampleListOfRecords - 2021.04.19 at 13h 36m 54s.xml">
+      <configuration name="ModifyRecordTest.modifyRecordsForSampleListOfRecords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndTimeAnalyzerTest - 2021.04.18 at 21h 27m 01s.xml">
+    <history-entry file="ModifyRecordTest - 2021.04.19 at 13h 37m 47s.xml">
+      <configuration name="ModifyRecordTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModifyRecordTest - 2021.04.19 at 13h 49m 21s.xml">
+      <configuration name="ModifyRecordTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DurationAnalyzerTest - 2021.04.19 at 15h 32m 03s.xml">
+      <configuration name="DurationAnalyzerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndTimeAnalyzerTest - 2021.04.19 at 15h 33m 22s.xml">
       <configuration name="EndTimeAnalyzerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndTimeAnalyzerTest - 2021.04.18 at 21h 28m 16s.xml">
-      <configuration name="EndTimeAnalyzerTest" configurationId="JUnit" />
+    <history-entry file="ModifyRecordTest - 2021.04.19 at 15h 33m 34s.xml">
+      <configuration name="ModifyRecordTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -596,19 +610,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.19966997" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.15204236" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.15204236" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24917492" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28877887" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.330033" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30033004" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229954" />
-      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.24752475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.21452145" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -670,56 +684,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/OperationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/WriteFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/DurationAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -877,108 +841,17 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="156" selection-start-line="16" selection-start-column="156" selection-end-line="16" selection-end-column="156" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/input-statements.psv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="84" column="29" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="29" />
+        <state relative-caret-position="196">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordModel/Record.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/WriteFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/ModifyRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/SortRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/actual-sessions.psv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/converter/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/OperationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="13" column="34" selection-start-line="13" selection-end-line="14" />
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -987,8 +860,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="251">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/converter/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordModel/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -997,26 +890,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/DurationAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="54">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/WriteFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="71">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/SortRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/recordService/ModifyRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/expected-sessions.psv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/input-statements.psv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/input-statements.psv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/expected-sessions.psv">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="109" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kantar/sessionsjob/inputOutputPackage/OperationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/ModifyRecordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/DurationAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kantar/sessionsjob/recordService/EndTimeAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/actual-sessions.psv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

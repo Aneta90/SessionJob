@@ -10,12 +10,14 @@ class EndTimeAnalyzerTest {
     private EndTimeAnalyzer endTimeAnalyzer;
     private Record currentRecord;
     private Record nextRecord;
+    private Record nextRecordSameHomeNo;
 
     @BeforeEach
     void init() {
         endTimeAnalyzer = new EndTimeAnalyzer();
         currentRecord = Record.builder().homeNo(900L).channel("621").startTime("20200102060000").activity("PlayBacks").endTime(null).duration(null).build();
         nextRecord = Record.builder().homeNo(777L).channel("602").startTime("20200101200000").activity("Live").endTime(null).duration(null).build();
+        nextRecordSameHomeNo = Record.builder().homeNo(900L).channel("623").startTime("20200102080000").activity("Live").endTime(null).duration(null).build();
     }
 
     @Test
@@ -26,8 +28,8 @@ class EndTimeAnalyzerTest {
 
     @Test
     void calculateEndTimeForCurrentRecordWhenNextHomeIsTheSame(){
-        Record currentRecordWithEndTime = endTimeAnalyzer.calculateEndTimePerOneRecord(currentRecord,nextRecord);
-        Assertions.assertEquals("20200102235959",currentRecordWithEndTime.getEndTime());
+        Record currentRecordWithEndTime = endTimeAnalyzer.calculateEndTimePerOneRecord(currentRecord,nextRecordSameHomeNo);
+        Assertions.assertEquals("20200102075959",currentRecordWithEndTime.getEndTime());
     }
 
     @Test

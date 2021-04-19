@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class SortRecord {
 
-    public List<Record> sortListByHomeNoAndDateTime(List<Record> inputList) {
+    public List<Record> sortListByHomeNoAndDateTime(final List<Record> inputList) {
         return inputList.stream()
                 .sorted(Comparator.comparing(Record::getHomeNo)
                         .thenComparing(Record::getStartTime))

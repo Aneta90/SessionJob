@@ -3,15 +3,15 @@ package com.kantar.sessionsjob.inputOutputPackage;
 import com.kantar.sessionsjob.recordModel.Record;
 import com.kantar.sessionsjob.recordService.ModifyRecord;
 import com.kantar.sessionsjob.recordService.SortRecord;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
 public class OperationService {
 
-    private static final Logger LOGGER = Logger.getLogger(OperationService.class.getName());
+    private static final Logger LOGGER = LogManager.getLogger(OperationService.class);
 
     private final ReadFile readFile = new ReadFile();
     private final WriteFile writeFile = new WriteFile();
@@ -25,7 +25,7 @@ public class OperationService {
             writeFile.writeDataToFile(finalListOfRecord, pathToOutputFIle);
     }
 
-    private List<Record> getRecordFromFile(String pathToFile) {
+    private List<Record> getRecordFromFile(final String pathToFile) {
         return Optional.ofNullable(pathToFile)
                 .map(path -> convert(pathToFile))
                 .filter(Optional::isPresent)
@@ -35,15 +35,10 @@ public class OperationService {
     }
 
     private Optional<List<Record>> convert(final String pathToFile) {
-        try {
             return Optional.of(readFile.readDataFromFileAsRecord(pathToFile));
-        } catch (IOException e) {
-            LOGGER.error("Problem with path/input file." + e.getCause());
-            return Optional.empty();
-        }
     }
 
-    private List<Record> sortRecords(List<Record> listOfRecords) {
+    private List<Record> sortRecords(final List<Record> listOfRecords) {
         return sortRecord.sortListByHomeNoAndDateTime(listOfRecords);
     }
 }

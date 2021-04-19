@@ -8,14 +8,14 @@ import java.time.temporal.ChronoUnit;
 
 class DurationAnalyzer {
 
-    Record calculateDurationPerOneRecord(Record currentRecord) {
+    Record calculateDurationPerOneRecord(final Record currentRecord) {
         LocalDateTime startDateTime = Converter.convertStringToLocalDateTime(currentRecord.getStartTime());
         LocalDateTime endDateTime = Converter.convertStringToLocalDateTime(currentRecord.getEndTime());
         currentRecord.setDuration(calculateDuration(startDateTime, endDateTime));
         return currentRecord;
     }
 
-    private Long calculateDuration(LocalDateTime startTime, LocalDateTime endTime) {
+    private Long calculateDuration(final LocalDateTime startTime, final LocalDateTime endTime) {
         return ChronoUnit.SECONDS.between(startTime, endTime) + 1L;
     }
 }
