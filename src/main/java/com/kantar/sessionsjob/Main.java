@@ -10,7 +10,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LOGGER.debug("Log4j appender configuration is successful !!");
         if (args.length < 2) {
             LOGGER.error("Missing arguments: <input-statements-file> <expected-sessions-file>");
             System.exit(1);
